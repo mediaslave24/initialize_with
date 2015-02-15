@@ -10,6 +10,8 @@ ruby version >= 1.9.3
 
 ### Synopsis
 ``` ruby
+require 'initialize_with'
+
 class Foo
   extend InitializeWith
   initialize_with [:a, :b], c: 1, d: 2
